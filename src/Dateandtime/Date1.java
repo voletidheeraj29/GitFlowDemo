@@ -10,7 +10,9 @@ public static void main(String args[]){
 	
 	 SimpleDateFormat ft = 
 		      new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
-	//printing date format
+	 System.out.println("This is current time and date");
+
+	 //printing date format
          System.out.println(date);
         //printing simple date format 
          System.out.println("Current Date: " + ft.format(date));
